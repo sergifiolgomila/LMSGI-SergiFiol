@@ -1,0 +1,49 @@
+{
+"enquestes": [
+    {
+        "id":1,
+        "títol": "Mascotes",
+        "activa": true,
+        "preguntes": [
+            {
+                "ordre": 1,
+                "text": "T'agraden més els moixos o els cans?",
+                "tipus": "opció_múltiple",
+                "opcions": [
+                    "Els moixos",
+                    "Els cans",
+                    "M'agraden per igual"
+                ]
+            },
+            {
+                "ordre": 2,
+                "text": "Que és el que més t'agrada d'ells?",
+                "tipus": "text_lliure"
+                
+            }
+        ]
+    },
+    {
+     "id": 2,
+        "títol": "Avaluació Tasca 1",
+        "activa": false,
+        "preguntes": [
+            {
+                "ordre": 1,
+                "text": "El treball està ben fet?",
+                "tipus": "opció_múltiple",
+                "opcions": [
+                    "Sí",
+                    "No",
+                    "A mitges"
+                ]
+            },
+            {
+                "ordre": 2,
+                "text": "Quins aspectes es poden millorar?",
+                "tipus": "text_lliure"   
+            }
+        ]   
+    }
+]
+}
